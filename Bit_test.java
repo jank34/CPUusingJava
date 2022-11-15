@@ -5,7 +5,7 @@ Comp. Architecture
 HW 1: The Bit 
 */
 public class Bit_test{
-    public static void main(String args[]){
+    public static void main(String[] args){
         runTests();
     }
     public static void runTests(){
@@ -59,8 +59,8 @@ public class Bit_test{
             System.out.println("NOT 1:" + new Bit(1).not().getValue());
     }
     public static void testToString(){//#10
-            System.out.println("ToStringOfFalse:"+new Bit(0).toString());
-            System.out.println("ToSTringOfTrue:"+ new Bit(1).toString());
+            System.out.println("ToStringOfFalse:"+ new Bit(0));
+            System.out.println("ToSTringOfTrue:"+ new Bit(1));
         }
     
 }
